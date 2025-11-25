@@ -1,7 +1,7 @@
 resource "aws_instance" "example" {
    
    instance_type = "t3.micro"
-   ami = "ami-0fa3fe0fa7920f68e"
-    key_name = "30july"
-   vpc_security_group_ids = [ "sg-0bbfe8e7d4bf3c179" ]
+   ami = "ami-0f00d706c4a80fd93"
+    key_name = "adi"
+   vpc_security_group_ids = [ "sg-0e23629a6578f85e1" ]
 }
